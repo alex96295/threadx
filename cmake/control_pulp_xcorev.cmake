@@ -1,11 +1,11 @@
 # Name of the target
 set(CMAKE_SYSTEM_NAME Generic)
-set(CMAKE_SYSTEM_PROCESSOR control-pulp)
+set(CMAKE_SYSTEM_PROCESSOR safety-island)
 
 set(THREADX_ARCH "control_pulp")
 set(THREADX_TOOLCHAIN "gnu")
 
-set(MCPU_FLAGS "-march=rv32imc_zfinx_xcorev -mabi=ilp32")
+set(MCPU_FLAGS "-march=rv32imc_xcorev -mabi=ilp32")
 set(VFP_FLAGS "")
 set(SPEC_FLAGS "")
 # set(LD_FLAGS "-nostartfiles -Wl,--gc-sections -Wl,-Map,memory.map")
